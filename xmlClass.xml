@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+    <!ELEMENT root (menu)>
+    <!ELEMENT menu (product+)>
+    <!ELEMENT product (name, price, description)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+]>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<root>
+    <menu>
+        <product>
+            <name>Sourdough White</name>
+            <price>$7.00</price>
+            <description>Our standard sourdough</description>
+        </product>
+        <product>
+            <name>Sourdough Rye</name>
+            <price>$8.00</price>
+            <description>Sourdough created with 50% rye flour</description>
+        </product>
+        <product>
+            <name>Sourdough Spelt</name>
+            <price>$9.00</price>
+            <description>Sourdough created with 100% spelt flour</description>
+        </product>
+        <product>
+            <name>Sourdough Seeded</name>
+            <price>$9.50</price>
+            <description>Sourdough including a mixture of yummy seeds</description>
+        </product>
+    </menu>
+</root>

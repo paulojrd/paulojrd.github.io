@@ -1,1 +1,52 @@
+/* General Styles */
+root {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    display: block;
+}
 
+/* Root container for the whole menu */
+menu {
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for each product/item */
+product, item {
+    display: block;
+    list-style-type: none;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for name, price, and description */
+name {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+price {
+    display: block;
+    font-size: 1.2em;
+    color: #2a9d8f;
+    font-weight: bold;
+}
+
+description {
+    display: block;
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
